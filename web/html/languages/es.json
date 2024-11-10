@@ -1,0 +1,51 @@
+{
+    "home": {
+        "title": "Bienvenido a ParisCareTakerService",
+        "description": "Tu solución perfecta para alquileres a corto plazo en París. Encuentra los mejores lugares para hospedarte con anfitriones de confianza."
+    },
+    "apartments": [
+        {
+            "title": "Estudio acogedor en el corazón de París",
+            "description": "Un estudio acogedor y elegante ubicado en el corazón de París. Perfecto para viajeros solitarios o parejas.",
+            "button": "Ver detalles",
+            "image": "path/to/image1.jpg",
+            "alt": "Apartamento 1"
+        },
+        {
+            "title": "Apartamento de lujo con vista a la Torre Eiffel",
+            "description": "Vive en el lujo con una impresionante vista de la Torre Eiffel desde tu balcón.",
+            "button": "Ver detalles",
+            "image": "path/to/image2.jpg",
+            "alt": "Apartamento 2"
+        },
+        {
+            "title": "Encantador loft en Le Marais",
+            "description": "Quédate en un encantador loft en el moderno barrio de Le Marais, rodeado de tiendas y cafés.",
+            "button": "Ver detalles",
+            "image": "path/to/image3.jpg",
+            "alt": "Apartamento 3"
+        }
+    ],
+    "services": [
+        {
+            "title": "Soporte al Cliente 24/7",
+            "description": "Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana para ayudarte con cualquier pregunta o inquietud."
+        },
+        {
+            "title": "Limpieza de Alta Calidad",
+            "description": "Todos nuestros apartamentos se limpian según los más altos estándares para garantizar tu comodidad."
+        },
+        {
+            "title": "Descuentos Exclusivos",
+            "description": "Disfruta de descuentos especiales y ofertas al reservar a través de nuestra plataforma."
+        }
+    ],
+    "about": {
+        "title": "Acerca de Nosotros",
+        "description": "ParisCareTakerService fue fundado con la misión de ofrecer opciones de alquiler a corto plazo de alta calidad en la hermosa ciudad de París. Nos esforzamos por hacer que cada estadía sea memorable ofreciendo un servicio al cliente excepcional y alojamientos cuidadosamente seleccionados."
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "description": "Contacta a nuestro equipo para cualquier pregunta, reserva o asistencia."
+    }
+}

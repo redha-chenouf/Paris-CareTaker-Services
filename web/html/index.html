@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParisCareTakerService</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo h3">ParisCareTakerService</div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#home" class="nav-link text-white active">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-white">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-white">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+                    <li class="nav-item">
+                        <select id="languageSelect" class="form-control" onchange="changeLanguage()">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="es">Español</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="content" class="container mt-4">
+        <section id="home" class="text-center mb-5">
+            <h1 class="display-4" id="homeTitle">Welcome to ParisCareTakerService</h1>
+            <p class="lead" id="homeDescription">Your perfect solution for short-term rentals in Paris. Find the best places to stay with trusted hosts.</p>
+            <button class="btn btn-primary btn-lg mt-4">Explore Now</button>
+        </section>
+
+        <section id="apartments" class="mb-5">
+            <h2 class="text-center">Featured Apartments</h2>
+            <div class="row mt-4" id="apartmentsList">
+                <!-- Apartment cards will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="services" class="mb-5">
+            <h2 class="text-center" id="servicesTitle">Our Services</h2>
+            <div class="row mt-4" id="servicesList">
+                <!-- Service cards will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="about" class="mb-5">
+            <h2 class="text-center" id="aboutTitle">About Us</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p id="aboutDesc1">ParisCareTakerService was founded with the mission to provide high-quality short-term rental options in the beautiful city of Paris. We strive to make every stay memorable by offering exceptional customer service and carefully curated accommodations.</p>
+                </div>
+                <div class="col-md-6">
+                    <p id="aboutDesc2">Our team is passionate about travel and hospitality, and we work tirelessly to ensure that our clients have an unforgettable experience. Whether you are visiting Paris for business or pleasure, we have the perfect place for you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-5">
+            <h2 class="text-center" id="contactTitle">Contact Us</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h5>Our Address</h5>
+                    <p>123 rue de Paris, 75001 Paris, France</p>
+                    <h5>Email</h5>
+                    <p>contact@pariscaretakerservice.com</p>
+                    <h5>Phone</h5>
+                    <p>+33 1 23 45 67 89</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 ParisCareTakerService. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

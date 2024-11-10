@@ -1,0 +1,51 @@
+{
+    "home": {
+        "title": "Bienvenue sur ParisCareTakerService",
+        "description": "Votre solution parfaite pour les locations à court terme à Paris. Trouvez les meilleurs endroits pour séjourner avec des hôtes de confiance."
+    },
+    "apartments": [
+        {
+            "title": "Studio confortable au cœur de Paris",
+            "description": "Un studio confortable et élégant situé au cœur de Paris. Parfait pour les voyageurs en solo ou les couples.",
+            "button": "Voir les détails",
+            "image": "path/to/image1.jpg",
+            "alt": "Appartement 1"
+        },
+        {
+            "title": "Appartement de luxe avec vue sur la Tour Eiffel",
+            "description": "Vivez dans le luxe avec une vue imprenable sur la Tour Eiffel depuis votre balcon.",
+            "button": "Voir les détails",
+            "image": "path/to/image2.jpg",
+            "alt": "Appartement 2"
+        },
+        {
+            "title": "Charmant loft dans Le Marais",
+            "description": "Séjournez dans un charmant loft dans le quartier branché du Marais, entouré de boutiques et de cafés.",
+            "button": "Voir les détails",
+            "image": "path/to/image3.jpg",
+            "alt": "Appartement 3"
+        }
+    ],
+    "services": [
+        {
+            "title": "Assistance Clientèle 24/7",
+            "description": "Notre équipe est disponible jour et nuit pour vous assister avec toutes vos questions ou préoccupations."
+        },
+        {
+            "title": "Nettoyage de Haute Qualité",
+            "description": "Tous nos appartements sont nettoyés selon les normes les plus élevées pour garantir votre confort."
+        },
+        {
+            "title": "Remises Exclusives",
+            "description": "Profitez de réductions spéciales et d'offres lorsque vous réservez via notre plateforme."
+        }
+    ],
+    "about": {
+        "title": "À Propos de Nous",
+        "description": "ParisCareTakerService a été fondé dans le but de proposer des options de location à court terme de haute qualité dans la belle ville de Paris. Nous nous efforçons de rendre chaque séjour mémorable en offrant un service client exceptionnel et des hébergements soigneusement sélectionnés."
+    },
+    "contact": {
+        "title": "Contactez-Nous",
+        "description": "Contactez notre équipe pour toute question, réservation ou assistance."
+    }
+}
